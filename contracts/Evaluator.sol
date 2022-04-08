@@ -29,7 +29,6 @@ contract Evaluator
 		USDC = _USDC;
 		variableDebtUSDC = _variableDebtUSDC;
 		emit constructedCorrectly(address(TDAAVE), address(aDAI), address(USDC), address(variableDebtUSDC));
-
 	}
 
 	fallback () external payable 
